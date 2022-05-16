@@ -1,0 +1,139 @@
+body {
+    font-family: courier, monospace;
+    background-image: url(http://cdn.shopify.com/s/files/1/0509/9444/6490/articles/coffee-g810e55ede_1920_1200x1200.jpg?v=1633950177);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.flex-container {
+    display: flex;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 10px;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+}
+
+.subject {
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    text-align: left;
+    border: 1px solid #dedede;
+    width: 800px;
+    opacity: 1.0;
+}
+
+.text {
+    color: #555;
+    font-size: 16px;
+    padding: 0;
+    width: 800px;
+    font-family: courier, monospace;
+}
+
+.text p {
+    list-style: none;
+    border-bottom: 1px dotted #ccc;
+    text-indent: 25px;
+    height: auto;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.text li {
+    list-style: none;
+    border-bottom: 1px dotted #ccc;
+    text-indent: 25px;
+    height: auto;
+    padding: 10px;
+    text-transform: capitalize;
+  }
+
+.lines {
+    border-left: 1px solid #ffaa9f;
+    border-right: 1px solid #ffaa9f;
+    width: 2px;
+    float: left;
+    height: 230px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.images {
+    align-items: center;
+    float: right;
+}
+
+.images-click {
+    align-items: center;
+    float: right;
+    position: relative;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.image-btn {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.images-click:hover .image {
+    opacity: 0.3;
+}
+
+.images-click:hover .image-btn {
+    opacity: 1;
+}
+
+.image-text {
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    padding: 16px 20px;
+    border-radius: 10%;
+}
+
+#Kazimier {
+    border-radius: 50%;
+    margin: 20px;
+    width: 180px;
+}
+
+#Naomi {
+    border-style: dotted;
+    margin: 40px;
+}
+
+#bitmoij {
+    width: 180px;
+    margin: 20px;
+}
+
